@@ -1,0 +1,130 @@
+Traceback (most recent call last):
+  File "gpt.py", line 4, in <module>
+    import gradio as gr
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/__init__.py", line 3, in <module>
+    import gradio.components as components
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/__init__.py", line 1, in <module>
+    from gradio.components.annotated_image import AnnotatedImage
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/annotated_image.py", line 14, in <module>
+    from gradio.components.base import IOComponent, _Keywords
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/base.py", line 20, in <module>
+    from fastapi import UploadFile
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/__init__.py", line 7, in <module>
+    from .applications import FastAPI as FastAPI
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/applications.py", line 16, in <module>
+    from fastapi import routing
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/routing.py", line 22, in <module>
+    from fastapi import params
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/params.py", line 5, in <module>
+    from fastapi.openapi.models import Example
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/openapi/models.py", line 4, in <module>
+    from fastapi._compat import (
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/_compat.py", line 20, in <module>
+    from fastapi.exceptions import RequestErrorModel
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/exceptions.py", line 6, in <module>
+    from typing_extensions import Annotated, Doc  # type: ignore [attr-defined]
+ImportError: cannot import name 'Doc' from 'typing_extensions' (/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/typing_extensions.py)
+Traceback (most recent call last):
+  File "gpt.py", line 4, in <module>
+    import gradio as gr
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/__init__.py", line 3, in <module>
+    import gradio.components as components
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/__init__.py", line 1, in <module>
+    from gradio.components.annotated_image import AnnotatedImage
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/annotated_image.py", line 14, in <module>
+    from gradio.components.base import IOComponent, _Keywords
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/base.py", line 20, in <module>
+    from fastapi import UploadFile
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/__init__.py", line 7, in <module>
+    from .applications import FastAPI as FastAPI
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/applications.py", line 16, in <module>
+    from fastapi import routing
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/routing.py", line 22, in <module>
+    from fastapi import params
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/params.py", line 5, in <module>
+    from fastapi.openapi.models import Example
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/openapi/models.py", line 4, in <module>
+    from fastapi._compat import (
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/_compat.py", line 20, in <module>
+    from fastapi.exceptions import RequestErrorModel
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/exceptions.py", line 6, in <module>
+    from typing_extensions import Annotated, Doc  # type: ignore [attr-defined]
+ImportError: cannot import name 'Doc' from 'typing_extensions' (/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/typing_extensions.py)
+Traceback (most recent call last):
+  File "gpt.py", line 4, in <module>
+    import gradio as gr
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/__init__.py", line 3, in <module>
+    import gradio.components as components
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/__init__.py", line 1, in <module>
+    from gradio.components.annotated_image import AnnotatedImage
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/annotated_image.py", line 14, in <module>
+    from gradio.components.base import IOComponent, _Keywords
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/base.py", line 20, in <module>
+    from fastapi import UploadFile
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/__init__.py", line 7, in <module>
+    from .applications import FastAPI as FastAPI
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/applications.py", line 16, in <module>
+    from fastapi import routing
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/routing.py", line 22, in <module>
+    from fastapi import params
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/params.py", line 5, in <module>
+    from fastapi.openapi.models import Example
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/openapi/models.py", line 4, in <module>
+    from fastapi._compat import (
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/_compat.py", line 20, in <module>
+    from fastapi.exceptions import RequestErrorModel
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/exceptions.py", line 6, in <module>
+    from typing_extensions import Annotated, Doc  # type: ignore [attr-defined]
+ImportError: cannot import name 'Doc' from 'typing_extensions' (/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/typing_extensions.py)
+Traceback (most recent call last):
+  File "gpt.py", line 4, in <module>
+    import gradio as gr
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/__init__.py", line 3, in <module>
+    import gradio.components as components
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/__init__.py", line 1, in <module>
+    from gradio.components.annotated_image import AnnotatedImage
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/annotated_image.py", line 14, in <module>
+    from gradio.components.base import IOComponent, _Keywords
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/base.py", line 20, in <module>
+    from fastapi import UploadFile
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/__init__.py", line 7, in <module>
+    from .applications import FastAPI as FastAPI
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/applications.py", line 16, in <module>
+    from fastapi import routing
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/routing.py", line 22, in <module>
+    from fastapi import params
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/params.py", line 5, in <module>
+    from fastapi.openapi.models import Example
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/openapi/models.py", line 4, in <module>
+    from fastapi._compat import (
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/_compat.py", line 20, in <module>
+    from fastapi.exceptions import RequestErrorModel
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/exceptions.py", line 6, in <module>
+    from typing_extensions import Annotated, Doc  # type: ignore [attr-defined]
+ImportError: cannot import name 'Doc' from 'typing_extensions' (/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/typing_extensions.py)
+Traceback (most recent call last):
+  File "gpt.py", line 4, in <module>
+    import gradio as gr
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/__init__.py", line 3, in <module>
+    import gradio.components as components
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/__init__.py", line 1, in <module>
+    from gradio.components.annotated_image import AnnotatedImage
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/annotated_image.py", line 14, in <module>
+    from gradio.components.base import IOComponent, _Keywords
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/gradio/components/base.py", line 20, in <module>
+    from fastapi import UploadFile
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/__init__.py", line 7, in <module>
+    from .applications import FastAPI as FastAPI
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/applications.py", line 16, in <module>
+    from fastapi import routing
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/routing.py", line 22, in <module>
+    from fastapi import params
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/params.py", line 5, in <module>
+    from fastapi.openapi.models import Example
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/openapi/models.py", line 4, in <module>
+    from fastapi._compat import (
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/_compat.py", line 20, in <module>
+    from fastapi.exceptions import RequestErrorModel
+  File "/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/fastapi/exceptions.py", line 6, in <module>
+    from typing_extensions import Annotated, Doc  # type: ignore [attr-defined]
+ImportError: cannot import name 'Doc' from 'typing_extensions' (/Users/abdulrehman/.pyenv/versions/3.8.12/lib/python3.8/site-packages/typing_extensions.py)
